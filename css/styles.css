@@ -1,0 +1,92 @@
+/*
+CSS color pallette
+
+#1A535C Midnight Green
+#4ECDC4 Medium Turquoise
+#f7fff7 Mint Cream
+#FF6B6B Bittersweet
+#ffe66d Naples Yellow
+--------------------------*/
+
+/*Global Styles
+--------------------------*/
+body {
+    color: #1A535C;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #FF6B6B;
+}
+
+a:hover {
+    color: #ffe66d;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sarala', sans-serif;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*Profile
+--------------------------*/
+header {
+    background-color: #ffe66d;
+}
+
+/*Projects
+--------------------------*/
+.projects {
+    background-color: #f7fff7;
+}
+
+.projects a {
+    color: #1A535C;
+}
+
+.projects .btn {
+    color: #f7fff7;
+    background: #1A535C;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;  
+}
+
+.projects .btn:hover {
+    background: rgba(26, 83, 92, 80%);
+}
+
+
+/*Work Experience
+--------------------------*/
+.work-experience {
+    background-color: #4ECDC4;
+}
+/*Education
+--------------------------*/
+
+/*Contact Info
+--------------------------*/
+footer {
+    background-color: #1A535C;
+    color: #f7fff7;
+}
